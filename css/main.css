@@ -1,0 +1,197 @@
+
+* {
+	box-sizing: border-box;
+}
+
+
+body {
+	margin: 0;
+	min-height: 100vh;
+}
+
+.hide{
+	display: none;
+}
+.show{
+	display: block;
+}
+/* ================================= 
+  Base Layout Styles
+==================================== */
+
+/*Style Search Box*/
+
+input {
+  background: rgba(255,255,255,0.1);
+  border: none;
+  font-size: 16px;
+  height: auto;
+  outline: 0;
+  padding: 15px;
+  width: 70%;
+  background-color: #e8eeef;
+  color: #8a97a0;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+  margin: 30px 0;
+  border-radius: 5px;
+}
+
+form {
+	text-align: center;
+	padding: 20px 0;
+	background-color: #232931;
+	width: 100%;
+	margin: 0 0 30px 0 ;
+}
+
+img{
+	width: 160px;
+}
+
+
+.background {
+	background-color: #EEEEEE;
+	padding-bottom: 60px;
+}
+
+.wrapper{
+	width: 90%;
+	margin: 0 auto;
+}
+
+.tittle{
+	font-family: Nunito;
+	display: block;
+    position: absolute;
+    color: #222;
+    bottom: -33px;
+    left: 0;
+}
+
+.main-footer{
+	padding: 30px 0;
+	background-color: #4ECCA3;
+	text-align: center;
+	color: #EEEEEE;
+	font-family: Nunito;
+	text-transform: uppercase;
+}
+
+<<<<<<< HEAD
+=======
+.lb-caption{
+	
+}
+
+>>>>>>> 051a77e6b75083d8ea3ef2d28844cb1baf6f8ef3
+/* ================================= 
+  LightBox
+==================================== */
+div .lb-outerContainer{
+<<<<<<< HEAD
+	margin-top: 3em;
+=======
+	margin-top: 4em;
+>>>>>>> 051a77e6b75083d8ea3ef2d28844cb1baf6f8ef3
+}
+
+div .lb-details{
+	font-family: 'Nunito';
+	padding-top: 2em;
+}
+
+
+/* ================================= 
+  Grid Container
+==================================== */
+
+.grid-container{
+	display: inline-grid;
+	grid-column-gap: 11px;
+	grid-row-gap: 10px;
+	grid-template-columns: auto auto;
+	margin: 0 auto;
+}
+
+
+/* ================================= 
+  Media Queries
+==================================== */
+
+@media (min-width: 768px) {
+
+
+input {
+	width:500px;
+	margin-top: 50px;
+}
+
+img{
+	width: 240px;
+}
+
+.wrapper{
+	width: 760px;
+
+}
+
+
+
+
+
+/* ================================= 
+  Grid Container
+==================================== */
+
+.grid-container{
+	display: inline-grid;
+	grid-column-gap: 25px;
+	grid-row-gap: 25px;
+	grid-template-columns: auto auto auto;
+	margin: 0 auto;
+}
+
+
+}
+
+
+/* ================================= 
+  Media Queries
+==================================== */
+
+@media (min-width: 1025px) {
+
+
+input {
+	width:500px;
+	margin-top: 50px;
+}
+
+img{
+	width: 200px;
+}
+
+.wrapper{
+	width: 900px;
+
+}
+
+
+
+
+
+/* ================================= 
+  Grid Container
+==================================== */
+
+.grid-container{
+	display: inline-grid;
+	grid-column-gap: 25px;
+	grid-row-gap: 25px;
+	grid-template-columns: auto auto auto auto;
+	margin: 0 auto;
+}
+
+
+}
+
